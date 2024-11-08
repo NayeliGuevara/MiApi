@@ -7,7 +7,7 @@ export default class Server {
         this.app = express();
         this.port = process.env.PORT||3000;
         this.generalRoute = '/api';
-        this.conectarDBMongo();
+        this.conectarDBMongo(); 
 
         // Middlewares
         this.middlewares();
